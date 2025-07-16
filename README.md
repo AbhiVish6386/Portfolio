@@ -1,2 +1,3 @@
-# Portfolio
-A simple porfolio website using tailwind CSS
+# My Experience Building This Portfolio Website
+
+While building this portfolio website using only HTML and Tailwind CSS, I gained practical experience in structuring responsive layouts, designing UI components with utility-first classes, and ensuring a consistent visual hierarchy. Managing image sizes, hover effects, and gradient backgrounds helped me understand the importance of balancing aesthetics with usability. I also practiced using semantic HTML tags and organized folder structures for better maintainability. Overall, it was a valuable project that strengthened my frontend development skills and helped me create a clean, professional online presence.
