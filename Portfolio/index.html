@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-r from-gray-900 via-black to-gray-900 text-white">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full bg-black bg-opacity-30 backdrop-blur-md z-50 h-24">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <div class="text-4xl font-bold text-yellow-400">Abhishek</div>
+            <ul class="flex space-x-6 text-2xl">
+                <li><a href="#home" class="hover:text-yellow-400">Home</a></li>
+                <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+                <li><a href="#projects" class="hover:text-yellow-400">Projects</a></li>
+                <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center">
+        <img src="./images/profile.jpg" class="rounded-full w-64 h-64 shadow-lg mb-4" alt="Avatar">
+        <h1 class="text-4xl md:text-6xl font-bold bg-gradient-to-r from-yellow-400 to-pink-500 text-transparent bg-clip-text">Abhishek Vishwakarma</h1>
+        <p class="mt-4 text-2xl">"Crafting Digital Experiences with Code"</p>
+        <button class="mt-6 px-6 py-3 bg-gradient-to-r from-yellow-400 to-pink-500 text-black rounded-lg font-semibold hover:scale-105 transition text-2xl"><a href="./pages/Resume.pdf">Download Resume</a></button>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-20 px-6 ">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-5xl font-bold text-center mb-10 ">About Me</h2>
+            <div class="grid md:grid-cols-2 gap-10">
+                <div>
+                    <p class="mb-4 text-2xl">I’m passionate about web development and electronics projects. I specialize in building responsive websites and IoT systems like Fire Thermomist and Ultragauge.</p>
+                    <p class="mb-4 text-2xl">Skills:</p>
+                    <ul class="list-disc ml-5 space-y-2 text-2xl">
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Tailwind CSS</li>
+                        <li>Predictive Analysis</li>
+                        <li>Data Analytics and Reporting</li>
+                        <li>Python</li>
+                        <li>C basics</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">Education Timeline</h3>
+                    <ul class="space-y-4 text-2xl">
+                        <li class="p-4 rounded-lg bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 shadow-lg">2024 - Present: B.TECH, SHRI RAMSWAROOP MEMORIAL UNIVERSITY with 7.72CGPA</li>
+                        <li class="p-4 rounded-lg bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 shadow-lg">2021: Completed 12th Standard with 77%</li>
+                        <li class="p-4 rounded-lg bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 shadow-lg">2019: Completed 10th Standard with 83.3%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+     
+    <!-- Projects Section -->
+<section id="projects" class="py-20 px-6">
+    <div class="max-w-7xl mx-auto">
+        <h2 class="text-5xl font-bold text-center mb-10">My Projects</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+
+            <!-- Project Card 1 -->
+            <div class="group p-4 rounded-lg bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 transition-transform hover:scale-105 hover:shadow-[0_0_30px_10px_rgba(255,255,255,0.1)]">
+                <img src="./images/Fire_Thermomist.png" alt="Project" class="rounded mb-6 w-full h-[220px] object-cover shadow-lg">
+                <h3 class="text-4xl font-bold mb-3">Fire Thermomist</h3>
+                <p class="mb-4 text-2xl leading-relaxed">Fire alert system using ESP32 + OLED Display.</p>
+                <a href="https://github.com/AbhiVish6386/Fire-Thermomist" class="text-yellow-400 underline text-2xl">View on GitHub</a>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="group p-4 rounded-lg bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 transition-transform hover:scale-105 hover:shadow-[0_0_30px_10px_rgba(255,255,255,0.1)]">
+                <img src="./images/Ultraguage.png" alt="Project" class="rounded mb-6 w-full h-[220px] object-cover shadow-lg">
+                <h3 class="text-4xl font-bold mb-3">Ultragauge</h3>
+                <p class="mb-4 text-2xl leading-relaxed">Distance measurement using ESP32 + Ultrasonic sensor.</p>
+                <a href="https://github.com/AbhiVish6386/Ultragauge" class="text-yellow-400 underline text-2xl">View on GitHub</a>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="group p-4 rounded-lg bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 transition-transform hover:scale-105 hover:shadow-[0_0_30px_10px_rgba(255,255,255,0.1)]">
+                <img src="./images/IR_Counter.png" alt="Project" class="rounded mb-6 w-full h-[220px] object-cover shadow-lg">
+                <h3 class="text-4xl font-bold mb-3">IR Counter</h3>
+                <p class="mb-4 text-2xl leading-relaxed">Object counter system using IR sensor and ESP32.</p>
+                <a href="#" class="text-yellow-400 underline text-2xl">View on GitHub</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 px-6">
+        <div class="max-w-xl mx-auto">
+            <h2 class="text-5xl font-bold text-center mb-10">Contact Me</h2>
+            <form class="space-y-6 text-2xl">
+                <input type="text" placeholder="Name" class="w-full p-3 bg-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                <input type="email" placeholder="Email" class="w-full p-3 bg-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                <textarea placeholder="Message" rows="4" class="w-full p-3 bg-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"></textarea>
+                <button type="submit" class="w-full p-3 bg-gradient-to-r from-yellow-400 to-pink-500 text-black rounded-lg font-bold hover:scale-105 transition">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center py-6 bg-black bg-opacity-50 text-2xl">
+        © 2025 Abhishek Vishwakarma | All Rights Reserved.
+    </footer>
+
+</body>
+
+</html>
